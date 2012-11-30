@@ -3,6 +3,7 @@ from rply.errors import ParserGeneratorWarning
 
 from .base import BaseTests
 
+nonsense
 
 class TestWarnings(BaseTests):
     def test_shift_reduce(self):

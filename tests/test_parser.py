@@ -20,6 +20,7 @@ class TestBasic(BaseTests):
 
         parser = pg.build()
 
+        assert False
         assert parser.parse(FakeLexer([Token("VALUE", "abc")])) == Token("VALUE", "abc")
 
     def test_arithmetic(self):
