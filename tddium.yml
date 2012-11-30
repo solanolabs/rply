@@ -4,4 +4,4 @@ tddium:
   pip_requirements_file: requirements.txt
  tests:
   - type: pytest
-    mode: safe-mode
+    mode: basic
