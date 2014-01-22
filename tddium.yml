@@ -4,4 +4,6 @@ tddium:
   pip_requirements_file: requirements.txt
  tests:
   - type: pytest
-    mode: basic
+    mode: parallel
+    files:
+    - tests/test_*.py
