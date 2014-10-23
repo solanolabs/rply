@@ -9,7 +9,7 @@ public API, and RPython support. Note that this currently only contains the
 ``yacc`` half of PLY, ``lex`` is not supported.
 
 Basic API:
-
+ 
 .. code:: python
 
     from rply import ParserGenerator
